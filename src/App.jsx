@@ -6,6 +6,7 @@ import About from "./Components/Main/About/About";
 import Services from "./Components/Main/Services/Services";
 import Testimonial from "./Components/Main/Testimonial/Testimonial";
 import Contact from "./Components/Main/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 
 export default function App(){
@@ -21,6 +22,7 @@ export default function App(){
           <Route path="/depoimentos" element={<Testimonial />}/>
           <Route path="/contato" element={<Contact />}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
       
       </>

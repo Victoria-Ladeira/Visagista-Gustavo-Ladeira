@@ -1,10 +1,23 @@
-
+import { Section } from "./Style";
 
 
 export default function Testimonial(){
    return(
-    <main>
-    <h1>Eu sou depoimentos</h1>
-    </main>
+    <Section>
+      <div>
+         <img src="" alt="" />
+         <figcaption></figcaption>
+      </div>
+      <div>
+         <img src="" alt="" />
+         <figcaption></figcaption>
+      </div><div>
+         <img src="" alt="" />
+         <figcaption></figcaption>
+      </div><div>
+         <img src="" alt="" />
+         <figcaption></figcaption>
+      </div>
+    </Section>
    );
 };

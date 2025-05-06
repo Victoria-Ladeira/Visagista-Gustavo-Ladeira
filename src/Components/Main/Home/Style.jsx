@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.main`
-background-color: #f7f7eb;
+background-color: #ffffec;
 height: 560vh;
 width: 100%;
 overflow: hidden;
@@ -60,6 +60,7 @@ margin-left: 330px;
 export const H3 = styled.h3`
 font-size: 60px;
 font-weight: 100;
+margin-bottom: 20px;
 font-family: 'Segoe UI', sans-serif;
 width: 60vw;
 transition: transform 0.8s ease, color 0.8s ease;
@@ -129,6 +130,7 @@ transition: transform 0.9s ease, color 0.9s ease;
 export const Card = styled.figure`
 height: 30vh;
 text-align: center;
+font-size: 19px;
 transition: transform 0.7s ease;
 
 &:hover{
@@ -138,7 +140,7 @@ transition: transform 0.7s ease;
 
 export const Div3 = styled.div`
 height: 50vh;
-width: 60vw;
+width: 65vw;
 margin-left: -50px;
 display: flex;
 align-items: center;
@@ -153,8 +155,8 @@ transition: transform 0.9s ease, box-shadow 0.6s ease;
 `
 
 export const Img3 = styled.img`
-width: 13vw;
-height: 24vh;
+width: 12vw;
+height: 20vh;
 `
 
 export const Ul = styled.ul`

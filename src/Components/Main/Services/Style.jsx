@@ -6,7 +6,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 padding-top: 190px;
-background-color: #f7f7eb;
+background-color: #ffffec;
 width: 100%;
 `
 export const Section = styled.section`
@@ -32,18 +32,21 @@ margin-left: 35px;
 `
 
 export const H4 = styled.p`
-font-size: 55px;
-font-weight: 100;
-font-family: 'Segoe UI', sans-serif;
-margin-left: 35px;
-color: #e3e3c7;
-width: 50vw;
-text-align: center;
-transition: transform 0.99s ease, color 0.99s ease;
+ font-size: 55px;
+  font-weight: 100;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 35px;
+  color: #e3e3c7;
+  width: 50vw;
+  text-align: center;
+  transition: transform 0.99s ease, opacity 0.99s ease;
+  transform: scale(1);
+  opacity: 0;
 
-&:hover{
+  &.ativo {
     transform: scale(1.15);
-}
+    opacity: 1;
+  }
 `
 
 export const Section2 = styled.section`
